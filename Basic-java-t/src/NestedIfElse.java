@@ -31,13 +31,21 @@ public class NestedIfElse {
         */
 
         // Nested if Statement:
-        int number = 10;
+        /*int number = -21;
         if (number > 0) {
             System.out.println("The number is positive.");
             if (number % 2 == 0) {
                 System.out.println("The number is even.");
+            } else {
+                System.out.println("The number is odd");
             }
-        }
+
+        }else {
+            System.out.println("The number is negative");
+            }
+           */
+
+
 
     }
 }
