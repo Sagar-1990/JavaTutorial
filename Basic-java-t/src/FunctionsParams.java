@@ -12,9 +12,9 @@ public class FunctionsParams {
         double rate = 12.5;
         calculateInterest(amount,time,rate);
 
-        double principal = 1000; // Principal amount
-        double rateA = 5; // Annual interest rate in percentage
-        int timeA = 10; // Time period in years
+        double principal = 1000.50; // Principal amount
+        double rateA = 6; // Annual interest rate in percentage
+        int timeA = 5; // Time period in years
         int n = 4; // Number of times interest is compounded per year
 
         double compoundInterest = calculateCompoundInterest(principal, rateA, timeA, n);

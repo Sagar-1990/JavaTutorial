@@ -1,6 +1,6 @@
 public class FunctionsExample {
     public static void main(String[] args){
-        System.out.println("Hello");
+        //System.out.println("Hello");
         FunctionsExample fe=new FunctionsExample();
         fe.SayHello();
 
@@ -23,7 +23,7 @@ public class FunctionsExample {
     }
 
     public static void getDaysFromAge(int age) {
-        System.out.println("User age in days is ");
-        System.out.println(age * 365);
+        int totalNumberofDays = age*365;
+        System.out.println("User age in days is = " +totalNumberofDays);
     }
 }
