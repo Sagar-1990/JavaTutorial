@@ -1,4 +1,4 @@
-public class Person {
+public class PersonExample {
     // Properties (attributes)
     String name;
     int age;
@@ -17,12 +17,14 @@ public class Person {
 
     public static void main(String[] args) {
         // Creating an object of the Person class
-        Person person1 = new Person();
+        PersonExample personExample1 = new PersonExample();
 
         // Setting the details of the person
-        person1.setDetails("Alice", 30);
+        personExample1.setDetails("Alice", 30);
 
         // Displaying the details of the person
-        person1.displayDetails(); // Output: Name: Alice, Age: 30
+        personExample1.displayDetails(); // Output: Name: Alice, Age: 30
     }
 }
+
+
