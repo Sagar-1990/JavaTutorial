@@ -7,8 +7,8 @@
         <mxCell id="ME9PV-bQM1VIJkFycnZ1-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ME9PV-bQM1VIJkFycnZ1-1" target="ME9PV-bQM1VIJkFycnZ1-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ME9PV-bQM1VIJkFycnZ1-1" value="Inward Process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="20" width="120" height="60" as="geometry" />
+        <mxCell id="ME9PV-bQM1VIJkFycnZ1-1" value="Inward Process Module" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="20" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ME9PV-bQM1VIJkFycnZ1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ME9PV-bQM1VIJkFycnZ1-3" target="ME9PV-bQM1VIJkFycnZ1-15">
           <mxGeometry relative="1" as="geometry">
@@ -18,20 +18,29 @@
         <mxCell id="ME9PV-bQM1VIJkFycnZ1-3" value="GateIN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ME9PV-bQM1VIJkFycnZ1-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ME9PV-bQM1VIJkFycnZ1-15" target="ME9PV-bQM1VIJkFycnZ1-17">
+        <mxCell id="ME9PV-bQM1VIJkFycnZ1-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ME9PV-bQM1VIJkFycnZ1-22" target="ME9PV-bQM1VIJkFycnZ1-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ME9PV-bQM1VIJkFycnZ1-15" value="Document Verification" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="230" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ME9PV-bQM1VIJkFycnZ1-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ME9PV-bQM1VIJkFycnZ1-17" target="ME9PV-bQM1VIJkFycnZ1-19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ME9PV-bQM1VIJkFycnZ1-17" value="GRN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="450" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ME9PV-bQM1VIJkFycnZ1-19" value="Putaway" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="420" width="120" height="60" as="geometry" />
+          <mxGeometry x="350" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ME9PV-bQM1VIJkFycnZ1-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ME9PV-bQM1VIJkFycnZ1-15" target="ME9PV-bQM1VIJkFycnZ1-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="280" as="sourcePoint" />
+            <mxPoint x="410" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ME9PV-bQM1VIJkFycnZ1-22" value="Unloading" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="340" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
