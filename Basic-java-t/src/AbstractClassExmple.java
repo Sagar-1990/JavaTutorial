@@ -1,4 +1,10 @@
+/*
+ Used for making methods without and with the body.
+ Used for making abstract methods and non -methods
+ Object cn not created with abstract class
+*/
 abstract class Android{
+
     void goodFeature(){
         System.out.println("Android OS provides a lot of good features");
     }
