@@ -4,7 +4,7 @@ interface driving{
     void applyBreak();
 }
 
-class Car implements driving {
+class Car1 implements driving {
     public void startEngine(){
         System.out.println("Engine started");
     }
@@ -15,7 +15,7 @@ class Car implements driving {
 
 public class InterfaceExample{
     public static void main(String[] args) {
-        Car c1 = new Car();
+        Car1 c1 = new Car1();
         c1.startEngine();
         System.out.println(c1.name);
         c1.applyBreak();
