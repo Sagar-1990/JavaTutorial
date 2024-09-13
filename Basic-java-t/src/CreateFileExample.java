@@ -4,7 +4,7 @@ import java.io.IOException;
 
 public class CreateFileExample {
 //    public static void main(String[] args) throws IOException {
-//        File myfile =new File("textile.txt");
+//        File myfile =new File("appleW3.text");
 //
 //        if(myfile.createNewFile()){
 //            System.out.println("file has created");
@@ -15,8 +15,10 @@ public class CreateFileExample {
 //    }
     public static void main(String[] args) {
         try{
-            FileWriter myFile = new FileWriter("textfile.txt");
-            myFile.write("This is a apple test file");
+            FileWriter myFile = new FileWriter("appleW3.text");
+            myFile.write("This is a apple test file" +
+                    "iwweiw jwbefbw jwebfw");
+
             myFile.close();
         }catch(Exception e){
             System.out.println("some error occured"+ e);
