@@ -1,7 +1,7 @@
 /*
  Used for making methods without and with the body.
  Used for making abstract methods and non -methods
- Object cn not created with abstract class
+ Object can not created with abstract class
 */
 abstract class Android{
 

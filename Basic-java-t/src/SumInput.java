@@ -12,13 +12,13 @@ public class SumInput {
     public static void main(String[] args){
 
        // Example 1
-        int num1, num2;
+        int a, b;
         System.out.println("Enter 1st number: ");
         Scanner sc = new Scanner(System.in);
-        num1 = sc.nextInt();
+        a = sc.nextInt();
         System.out.println("Enter 2nd number: ");
-        num2 = sc.nextInt();
-        System.out.println("Sum: "+ (num1+num2));
+        b = sc.nextInt();
+        System.out.println("Sum: "+ (a+b));
 
 
         // Example 2
